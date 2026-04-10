@@ -11,7 +11,6 @@ export type CurrentRelease = {
   mac12: `${string}.dmg`,
   mac13_arm: `${string}.dmg`,
   windows_main: `${string}.exe`,
-  ubuntu_22: `${string}.run`,
   ubuntu_24: `${string}.run`,
 };
 

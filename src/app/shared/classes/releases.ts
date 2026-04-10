@@ -66,14 +66,16 @@ export const releases: ReleaseItem[] = [{
 }, {
   version: 'EnergyPlus 25.1.0',
   url: 'https://github.com/NatLabRockies/EnergyPlus/releases/tag/v25.1.0-WithDSOASpaceListFixes'
+}, {
+  version: 'EnergyPlus 25.2.0',
+  url: 'https://github.com/NatLabRockies/EnergyPlus/releases/tag/v25.2.0'
 }];
 
 export const latestRelease: CurrentRelease = {
-  version: '25.2.0',
-  date: 'November 14, 2025',
-  mac13_arm: 'https://github.com/NatLabRockies/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Darwin-macOS13-arm64.dmg',
-  mac12: 'https://github.com/NatLabRockies/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Darwin-macOS12.1-x86_64.dmg',
-  windows_main: 'https://github.com/NatLabRockies/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Windows-x86_64.exe',
-  ubuntu_22: 'https://github.com/NatLabRockies/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Linux-Ubuntu22.04-x86_64.run',
-  ubuntu_24: 'https://github.com/NatLabRockies/EnergyPlus/releases/download/v25.2.0/EnergyPlus-25.2.0-cf7368216c-Linux-Ubuntu24.04-x86_64.run'
+  version: '26.1.0',
+  date: 'March 31st, 2026',
+  mac13_arm: 'https://github.com/NatLabRockies/EnergyPlus/releases/download/v26.1.0/EnergyPlus-26.1.0-6f2e40d102-Darwin-macOS13-arm64.dmg',
+  mac12: 'https://github.com/NatLabRockies/EnergyPlus/releases/download/v26.1.0/EnergyPlus-26.1.0-6f2e40d102-Darwin-macOS12.1-x86_64.dmg',
+  windows_main: 'https://github.com/NatLabRockies/EnergyPlus/releases/download/v26.1.0/EnergyPlus-26.1.0-6f2e40d102-Windows-x86_64.exe',
+  ubuntu_24: 'https://github.com/NatLabRockies/EnergyPlus/releases/download/v26.1.0/EnergyPlus-26.1.0-6f2e40d102-Linux-Ubuntu24.04-x86_64.run'
 }
